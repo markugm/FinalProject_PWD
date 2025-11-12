@@ -1,0 +1,105 @@
+  .home {
+    background-color: #29E2E8;
+
+  }
+  .bg-1 {
+    background-color: #ffea4d;
+  }
+  
+  .bg-2 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #ffea4d, #29e2e8);
+
+  }
+
+  .bg-3 {
+    background-color: #29E2E8;
+  }
+
+  .bg-4 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #ffea4d, #29e2e8);
+  }
+
+  .wave-bg {
+    background-image: url('/ProjekAkhir/img/wave-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .wave-2 {
+    background-image: url('/ProjekAkhir/img/wave-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -50px;
+  }
+  
+  .carousel-indicators button{
+    background-color: #ffe100;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .carousel-indicators .active{
+    background: #ffd900;
+  }
+  
+  /* buat running text */
+  .text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  .running {
+    background-color: #FFFF8F;
+    font-size: larger;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    letter-spacing: 1px;
+    animation: move-rt1 22000ms linear infinite;
+    white-space: nowrap;
+  }
+
+  @keyframes move-rt1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  /* running text */
+
+  .border-aja {
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+  }
+  
+  
+  .bg-4 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #ffea4d, #29e2e8);
+  }
+
+  .bg-5{
+    background-color: blueviolet;
+  }
+
+  
+ 
