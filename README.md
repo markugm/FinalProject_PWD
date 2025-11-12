@@ -1,24 +1,22 @@
-# NEORON - Platform Bimbingan Belajar Online
+# Website Promosi NEORON
 
-NEORON adalah platform teknologi pendidikan (edtech) dan pencipta platform belajar terkemuka. Proyek ini adalah implementasi web dinamis dari platform tersebut, yang berisi video pembelajaran, kuis, paket belajar, dan profil mentor.
-
-Proyek ini dibuat sebagai Proyek Akhir mata kuliah Pengembangan Web Dinamis.
+Proyek ini adalah sebuah **website promosi (landing page)** dinamis untuk **NEORON**, sebuah platform bimbingan belajar (edtech) berbasis aplikasi. Tujuan utama dari website ini adalah sebagai sarana promosi untuk menarik pengguna baru agar mengunduh dan menggunakan aplikasi NEORON. Website ini menampilkan informasi tentang keunggulan platform, paket belajar yang ditawarkan, profil mentor, dan testimoni pengguna. Proyek ini dibuat sebagai Proyek Akhir mata kuliah Pengembangan Web Dasar.
 
 ## Fitur Utama
 
 * **Autentikasi Pengguna:**
-    * Registrasi pengguna baru (siswa) dengan verifikasi.
+    * Registrasi pengguna baru (siswa) untuk mengumpulkan *lead*.
     * Login dan Logout pengguna.
     * Sistem sesi untuk membedakan tampilan *guest* (mis. `home.php`) dan *user* (mis. `home-login.php`).
 * **Manajemen Profil:**
     * Dashboard pengguna untuk melihat data diri dan data orang tua.
     * Fitur untuk mengedit profil pengguna.
-* **Konten Edukasi:**
-    * **Halaman Beranda:** Menampilkan keunggulan platform, testimoni, dan daftar mentor.
-    * **Paket Belajar:** Menampilkan berbagai paket yang tersedia (SMA, UTBK, Diamonds).
-    * **Halaman Mentor:** Menampilkan daftar mentor profesional untuk SMA dan UTBK.
+* **Konten Halaman (Promosi):**
+    * **Halaman Beranda:** Menampilkan keunggulan platform, testimoni, dan *highlight* mentor.
+    * **Paket Belajar:** Menampilkan rincian paket yang tersedia di aplikasi (SMA, UTBK, Diamonds).
+    * **Halaman Mentor:** Memperkenalkan daftar mentor profesional untuk membangun kepercayaan.
     * **Tentang Kami:** Menampilkan informasi perusahaan, partner, dan profil *founder*.
-* **Interaksi Pengguna:**
+* **Interaksi Pengguna (Testimoni):**
     * Sistem Ulasan (Testimoni) interaktif.
     * Pengguna yang telah login dapat memposting ulasan baru.
     * Pengguna dapat menghapus ulasan yang telah mereka buat.
